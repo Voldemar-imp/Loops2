@@ -20,7 +20,7 @@ namespace conditionalOperatorsAndLoops
 
             while (areYouStaying)
             {
-                Console.Write("К вам подходит официант и спашивет: чего жалаете? ");
+                Console.Write("К вам подходит официант и спашивет: чего желаете? ");
                 yourOrder = Console.ReadLine();
                 if (yourOrder == "exit")
                 {
