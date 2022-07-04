@@ -22,14 +22,17 @@ namespace conditionalOperatorsAndLoops
             {
                 Console.Write("К вам подходит официант и спашивет: чего желаете? ");
                 yourOrder = Console.ReadLine();
+                
                 if (yourOrder == "exit")
                 {
                     areYouStaying = false;                    
                     continue;
                 }
+                
                 Console.WriteLine("Вам приносят: " + yourOrder);
                 numberOfOrders ++;
-            }                    
+            } 
+            
             Console.WriteLine("Вы сделали " + numberOfOrders + " заказов.");
             Console.WriteLine("Приходите ещё!");
         }
